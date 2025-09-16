@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<company xmlns:hr="http://company.com/hr" xmlns:dep="http://company.com/department">
+    <dep:department name="Marketing">
+        <hr:employee id="E005">
+            <hr:name>Vũ Minh E</hr:name>
+            <hr:position>Trưởng phòng Marketing</hr:position>
+        </hr:employee>
+        <hr:employee id="E006">
+            <hr:name>Ngô Thị F</hr:name>
+            <hr:position>Chuyên viên nội dung</hr:position>
+        </hr:employee>
+    </dep:department>
+    
+    <dep:department name="Nhân sự">
+        <hr:employee id="E007">
+            <hr:name>Đặng Văn G</hr:name>
+            <hr:position>Trưởng phòng Nhân sự</hr:position>
+        </hr:employee>
+        <hr:employee id="E008">
+            <hr:name>Hoàng Thị H</hr:name>
+            <hr:position>Chuyên viên tuyển dụng</hr:position>
+        </hr:employee>
+    </dep:department>
+</company>

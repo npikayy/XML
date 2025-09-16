@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<orders xmlns:order="http://company.com/order" xmlns:prod="http://company.com/product">
+    <order:order id="O003" customer="Phạm Minh C" date="2025-04-10">
+        <prod:item id="P006" quantity="1" price="12000000">
+            <prod:name>Máy ảnh Canon</prod:name>
+        </prod:item>
+        <prod:item id="P007" quantity="2" price="350000">
+            <prod:name>Balo du lịch</prod:name>
+        </prod:item>
+        <prod:item id="P008" quantity="1" price="2200000">
+            <prod:name>Máy in HP</prod:name>
+        </prod:item>
+    </order:order>
+    
+    <order:order id="O004" customer="Lê Hoàng D" date="2025-04-11">
+        <prod:item id="P009" quantity="3" price="150000">
+            <prod:name>Bình giữ nhiệt</prod:name>
+        </prod:item>
+        <prod:item id="P010" quantity="1" price="4500000">
+            <prod:name>Máy hút bụi</prod:name>
+        </prod:item>
+    </order:order>
+</orders>

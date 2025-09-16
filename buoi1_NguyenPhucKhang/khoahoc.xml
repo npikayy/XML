@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elearning xmlns:course="http://example.com/course"
+           xmlns:instructor="http://example.com/instructor"
+           xmlns:student="http://example.com/student">
+    
+    <course:course id="C101" category="Phát triển phần mềm">
+        <course:title>Lập trình Java nâng cao</course:title>
+        <instructor:instructor id="I101">
+            <instructor:name>Đặng Quốc H</instructor:name>
+            <instructor:email>dangquoch@example.com</instructor:email>
+        </instructor:instructor>
+        <course:students>
+            <student:student id="S101" progress="65">
+                <student:name>Phan Thị I</student:name>
+            </student:student>
+            <student:student id="S102" progress="40">
+                <student:name>Vũ Minh J</student:name>
+            </student:student>
+            <student:student id="S103" progress="95">
+                <student:name>Ngô Văn K</student:name>
+            </student:student>
+        </course:students>
+    </course:course>
+    
+    <course:course id="C202" category="Mỹ thuật số">
+        <course:title>Thiết kế UX/UI nâng cao</course:title>
+        <instructor:instructor id="I202">
+            <instructor:name>Trần Thị L</instructor:name>
+            <instructor:email>tranthil@example.com</instructor:email>
+        </instructor:instructor>
+        <course:students>
+            <student:student id="S204" progress="75">
+                <student:name>Đinh Văn M</student:name>
+            </student:student>
+            <student:student id="S205" progress="88">
+                <student:name>Hồ Thị N</student:name>
+            </student:student>
+        </course:students>
+    </course:course>
+</elearning>

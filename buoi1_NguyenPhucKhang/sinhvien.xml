@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sinhvien>
+    <sinhvien>
+        <name>Phạm Minh C</name>
+        <id>SV003</id>
+        <subjects>
+            <monhoc>
+                <subject_name>Tiếng Anh</subject_name>
+                <score>9.2</score>
+            </monhoc>
+            <monhoc>
+                <subject_name>Tin học</subject_name>
+                <score>8.7</score>
+            </monhoc>
+            <monhoc>
+                <subject_name>GDCD</subject_name>
+                <score>9.0</score>
+            </monhoc>
+        </subjects>
+    </sinhvien>
+    <sinhvien>
+        <name>Lê Hoàng D</name>
+        <id>SV004</id>
+        <subjects>
+            <monhoc>
+                <subject_name>Thể dục</subject_name>
+                <score>10.0</score>
+            </monhoc>
+            <monhoc>
+                <subject_name>Mỹ thuật</subject_name>
+                <score>8.5</score>
+            </monhoc>
+            <monhoc>
+                <subject_name>Âm nhạc</subject_name>
+                <score>9.3</score>
+            </monhoc>
+        </subjects>
+    </sinhvien>
+</sinhvien>

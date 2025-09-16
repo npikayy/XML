@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<thuvien>
+    <sach>
+        <title>Muôn Kiếp Nhân Sinh</title>
+        <author>Nguyên Phong</author>
+        <year>2020</year>
+        <genre>Tâm linh</genre>
+    </sach>
+    <sach>
+        <title>Harry Potter và Hòn Đá Phù Thủy</title>
+        <author>J.K. Rowling</author>
+        <year>1997</year>
+        <genre>Giả tưởng</genre>
+    </sach>
+    <sach>
+        <title>Sapiens: Lược Sử Loài Người</title>
+        <author>Yuval Noah Harari</author>
+        <year>2011</year>
+        <genre>Lịch sử</genre>
+    </sach>
+</thuvien>

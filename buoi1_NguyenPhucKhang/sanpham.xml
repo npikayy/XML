@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sanpham>
+    <product id="P005" category="Thể thao" price="850000" currency="VND"/>
+    <product id="P006" category="Sách" price="15" currency="USD"/>
+    <product id="P007" category="Mỹ phẩm" price="320000" currency="VND"/>
+    <product id="P008" category="Đồ chơi" price="22" currency="USD"/>
+</sanpham>
