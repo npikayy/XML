@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sanpham SYSTEM "../buoi2_NguyenPhucKhang/sanpham.dtd">
 <sanpham>
     <product id="P005" category="Thể thao" price="850000" currency="VND"/>
     <product id="P006" category="Sách" price="15" currency="USD"/>

@@ -1,4 +1,8 @@
-<!ELEMENT orders (order:order+)>
+<!ELEMENT orders (order:order*)>
+<!ATTLIST orders
+    xmlns:order CDATA #IMPLIED
+    xmlns:prod CDATA #IMPLIED
+>
 <!ELEMENT order:order (prod:item+)>
 <!ATTLIST order:order
     id CDATA #REQUIRED

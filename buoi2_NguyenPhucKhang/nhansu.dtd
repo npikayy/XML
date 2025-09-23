@@ -1,4 +1,8 @@
 <!ELEMENT company (dep:department+)>
+<!ATTLIST company
+    xmlns:hr CDATA #IMPLIED
+    xmlns:dep CDATA #IMPLIED
+>
 <!ELEMENT dep:department (hr:employee+)>
 <!ATTLIST dep:department name CDATA #REQUIRED>
 <!ELEMENT hr:employee (hr:name, hr:position)>

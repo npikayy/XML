@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sinhvien>
+<!DOCTYPE dssinhvien SYSTEM "../buoi2_NguyenPhucKhang/sinhvien.dtd">
+<dssinhvien>
     <sinhvien>
         <name>Phạm Minh C</name>
         <id>SV003</id>
@@ -36,4 +37,4 @@
             </monhoc>
         </subjects>
     </sinhvien>
-</sinhvien>
+</dssinhvien>

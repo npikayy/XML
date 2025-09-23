@@ -1,4 +1,9 @@
-<!ELEMENT elearning (course:course+)>
+<!ELEMENT elearning (course:course*)>
+<!ATTLIST elearning
+    xmlns:course CDATA #IMPLIED
+    xmlns:student CDATA #IMPLIED
+    xmlns:instructor CDATA #IMPLIED
+>
 <!ELEMENT course:course (course:title, instructor:instructor, course:students)>
 <!ATTLIST course:course
     id CDATA #REQUIRED

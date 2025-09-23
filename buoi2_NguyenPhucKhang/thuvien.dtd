@@ -1,4 +1,4 @@
-<!ELEMENT library (sach+)>
+<!ELEMENT thuvien (sach+)>
 <!ELEMENT sach (title, author, year, genre)>
 <!ELEMENT title (#PCDATA)>
 <!ELEMENT author (#PCDATA)>
