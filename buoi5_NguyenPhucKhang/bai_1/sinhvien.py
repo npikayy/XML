@@ -23,12 +23,56 @@ def run_all_xpath_queries():
     for xpath, description in queries:
         try:
             result = root.xpath(xpath)
-            print(f"{description}")
+            print(f"🔍 {description}")
             print(f"   XPath: {xpath}")
-            print(f"   Kết quả: {result}")
+            
+            # Xử lý đặc biệt cho các trường hợp trả về Element objects
+            if description == "Tất cả sinh viên":
+                print("   Kết quả:")
+                for i, student in enumerate(result, 1):
+                    id = student.find('id').text
+                    name = student.find('name').text
+                    date = student.find('date').text
+                    print(f"     {i}. {id} - {name} - {date}")
+            
+            elif description == "Sinh viên đầu tiên":
+                if result:
+                    student = result[0]
+                    id = student.find('id').text
+                    name = student.find('name').text
+                    date = student.find('date').text
+                    print(f"   Kết quả: {id} - {name} - {date}")
+                else:
+                    print("   Kết quả: Không có sinh viên nào")
+            
+            elif description == "SV chưa đăng ký môn":
+                print("   Kết quả:")
+                for i, student in enumerate(result, 1):
+                    id = student.find('id').text
+                    name = student.find('name').text
+                    print(f"     {i}. {id} - {name}")
+            
+            elif description == "SV họ Trần":
+                print("   Kết quả:")
+                for i, student in enumerate(result, 1):
+                    id = student.find('id').text
+                    name = student.find('name').text
+                    print(f"     {i}. {id} - {name}")
+            
+            elif description == "Date sau name SV01":
+                if result:
+                    print(f"   Kết quả: {result[0].text}")
+                else:
+                    print("   Kết quả: Không tìm thấy")
+            
+            else:
+                # Các trường hợp khác trả về text hoặc số
+                print(f"   Kết quả: {result}")
+            
             print()
         except Exception as e:
             print(f"❌ Lỗi: {e}")
+            print()
 
 # Chạy tất cả queries
 run_all_xpath_queries()
